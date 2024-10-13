@@ -1,0 +1,33 @@
+#                 PYTHON PROGRAMMING TUTORIAL FOR ABSOLUTE BEGINNERS
+#                                BY NOAH AMOO
+
+                                    # If Statements
+
+# Use the if statement to check if a condition is True.
+print('\nThe if statement checks if a condition is True.')
+temperature = 25
+if temperature > 30:
+    print("The weather is hot.")
+    print("Drink lots of water.")
+elif temperature > 20:
+    print("It's a beautiful day.")
+elif temperature > 10:
+    print("It's a bit chilly.")
+else:
+    print("It's a bit cold.")
+print("\nEnjoy your day.")
+
+
+                                    # Exercise
+                                    # Weight Calculator
+#Write a program that receives a person's weight in pounds and displays the person's weight in kilograms.
+
+weight = float(input("Enter your weight: "))
+metric = input("Kilograms(K) or Pounds(P)? ").upper()
+
+if metric == "K":
+    print("Your weight in Pounds is " + str(weight / 0.45))
+elif metric == "P":
+    print("Your weight in Kilograms is " + str(weight * 0.45))
+else:
+    print("Invalid input.")

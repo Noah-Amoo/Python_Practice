@@ -1,0 +1,28 @@
+#                 PYTHON PROGRAMMING TUTORIAL FOR ABSOLUTE BEGINNERS
+#                                BY NOAH AMOO
+
+                                    # Comparison Operators
+
+# Use the == operator to check if two values are equal.
+print('\nThe == operator checks if two values are equal.')
+print(10 == 20)    # This will print False.
+
+# Use the != operator to check if two values are not equal.
+print('\nThe != operator checks if two values are not equal.')
+print(10 != 20)    # This will print True.
+
+# Use the < operator to check if one value is less than another.
+print('\nThe < operator checks if one value is less than another.')
+print(10 < 20)    # This will print True.
+
+# Use the > operator to check if one value is greater than another.
+print('\nThe > operator checks if one value is greater than another.')
+print(10 > 20)    # This will print False.
+
+# Use the <= operator to check if one value is less than or equal to another.
+print('\nThe <= operator checks if one value is less than or equal to another.')
+print(10 <= 20)    # This will print True.
+
+# Use the >= operator to check if one value is greater than or equal to another.
+print('\nThe >= operator checks if one value is greater than or equal to another.')
+print(10 >= 20)    # This will print False.

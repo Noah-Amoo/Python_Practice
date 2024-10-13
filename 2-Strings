@@ -1,0 +1,27 @@
+#                 PYTHON PROGRAMMING TUTORIAL FOR ABSOLUTE BEGINNERS
+#                                BY NOAH AMOO
+
+                                    # Strings
+
+course = 'Python Programming for Absolute Beginners'
+print(course)
+print('\n')
+
+# Use the Upper method to convert a string to uppercase.
+print('The upper method converts a string to uppercase.')
+print(course.upper())
+
+# Use the lower method to convert a string to lowercase.
+print('\nThe lower method converts a string to lowercase.')
+print(course.lower())
+
+# Use the find method to find a substring in a string. This returns the index of the substring.
+print('\nThe find method finds and returns the index of a substring in a string.')
+print('The index of "Python" in the string "Python Programming for Absolute Beginners" is ' + str(course.find('Python')))
+
+# Use the replace method to replace a substring in a string.
+print('\nThe replace method replaces a substring in a string.')
+print('\nThis replaces the word "Python" with the word "JavaScript"')
+print(course.replace('Python', 'JavaScript'))
+
+# Use the "in" operator to check if a substring is in a string. This returns a boolean value.

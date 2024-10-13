@@ -1,0 +1,18 @@
+#                 PYTHON PROGRAMMING TUTORIAL FOR ABSOLUTE BEGINNERS
+#                                BY NOAH AMOO
+
+                                    # Logical Operators
+
+# Use the "and" operator to check if two values are both True.
+print('\nThe "and" operator checks if two values are both True.')
+price = 25
+print(price > 20 and price < 30)    # This will print True.
+
+# Use the "or" operator to check if at least one of two values is True.
+print('\nThe "or" operator checks if at least one of two values is True.')
+print(price > 20 or price < 30)    # This will print True.
+
+# Use the "not" operator to check if a value is False.
+print('\nThe "not" operator checks if a value is False.')
+print(not price > 20)    # This will print False.
+print(not price < 30)    # This will print False.

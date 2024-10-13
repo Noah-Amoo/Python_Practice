@@ -1,0 +1,52 @@
+#                 PYTHON PROGRAMMING TUTORIAL FOR ABSOLUTE BEGINNERS
+#                                BY NOAH AMOO
+
+                                    # Lists
+
+# Use the list data type to store multiple values in a single variable.
+print('\nThe list data type stores multiple values in a single variable.')
+
+names = ['Nana', 'Noah', 'Yaw', 'Afriyie']
+print(names)
+
+# Use the index operator to access a value in a list.
+print('\nThe index operator accesses a value in a list.')
+print(names[0])    # This will print Nana.
+
+# Use a negative index to access a value from the end of a list.
+print('\nA negative index accesses a value from the end of a list.')
+print(names[-1])    # This will print Afriyie.
+
+# You can replace a value in a list by assigning a new value to it.
+print('\nYou can replace a value in a list by assigning a new value to it.')
+names[0] = 'Isaiah'
+print(names)
+
+# You can add a value to the end of a list by using the append method.
+print('\nYou can add a value to the end of a list by using the append method.')
+names.append('Elijah')
+print(names)
+
+#You can select a range of values from a list by using the slice operator.
+print('\nYou can select a range of values from a list by using the slice operator.')
+print(names[0:3])    # This will print ['Nana', 'Noah', 'Yaw'].
+print(names[1:])    # This will print ['Noah', 'Yaw', 'Afriyie', 'Elijah'].
+print(names[:3])    # This will print ['Nana', 'Noah', 'Yaw'].
+
+#You can remove a value from a list by using the remove method. 
+print('\nYou can remove a value from a list by using the remove method.')
+names.remove('Noah')
+print(names)
+
+#You can sort a list by using the sort method.
+print('\nYou can sort a list by using the sort method.')
+names.sort()
+print(names)
+
+#You can reverse a list by using the reverse method.
+print('\nYou can reverse a list by using the reverse method.')
+names.reverse()
+print(names)
+
+
+                                                            # List Methods

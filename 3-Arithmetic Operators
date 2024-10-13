@@ -1,0 +1,84 @@
+#                 PYTHON PROGRAMMING TUTORIAL FOR ABSOLUTE BEGINNERS
+#                                BY NOAH AMOO
+
+                                    # Arithmetic Operators
+
+# Use the + operator to add two numbers.
+print('\nThe + operator adds two numbers.')
+print(10 + 20)
+
+# Use the - operator to subtract two numbers.
+print('\nThe - operator subtracts two numbers.')
+print(10 - 20)
+
+# Use the * operator to multiply two numbers.
+print('\nThe * operator multiplies two numbers.')
+print(10 * 20)
+
+# Use the ** operator to raise a number to a power.
+print('\nThe ** operator raises a number to a power.')
+print(10 ** 3)
+
+# Use the / operator to divide two numbers.
+print('\nThe / operator divides two numbers.')
+print(10 / 20)
+
+# Use the // operator to divide two numbers and get the integer result.
+print('\nThe // operator divides two numbers and gets the integer result.')
+print(10 // 20)
+
+# Use the % operator to get the remainder of two numbers.
+print('\nThe % operator gets the remainder of two numbers.')
+
+
+                                    # AUMENTED ASSIGNMENT OPERATORS
+# Use the += operator to add a value to a variable.
+print('\nThe += operator adds a value to a variable.')
+x = 10
+x += 20
+print(x)    # This will print 30.
+
+# Use the -= operator to subtract a value from a variable.
+print('\nThe -= operator subtracts a value from a variable.')
+y = 10
+y -= 20
+print(y)    # This will print -10.
+
+# Use the *= operator to multiply a variable by a value.
+print('\nThe *= operator multiplies a variable by a value.')
+z = 10
+z *= 20
+print(z)    # This will print 200.
+
+# Use the /= operator to divide a variable by a value.
+print('\nThe /= operator divides a variable by a value.')
+a = 10
+a /= 20
+print(a)    # This will print 0.5.
+
+# Use the //= operator to divide a variable by a value and get the integer result.
+print('\nThe //= operator divides a variable by a value and gets the integer result.')
+b = 10
+b //= 20
+print(b)    # This will print 0.
+
+# Use the %= operator to get the remainder of a variable divided by a value.
+print('\nThe %= operator gets the remainder of a variable divided by a value.')
+c = 10
+c %= 20
+print(c)    # This will print 10.
+
+                                    # OPERATOR PRECEDENCE
+# The order of operations is as follows:
+# Parentheses, Exponents, Multiplication/Division, Addition/Subtraction, Bitwise Shifts, Boolean Operators, Comparison Operators, Assignment Operators, Membership Operators, Identity Operators, Logical Operators.
+
+# Use parentheses to change the order of operations.
+print('\nThe order of operations is as follows:')
+print('Parentheses, Exponents, Multiplication/Division, Addition/Subtraction, Bitwise Shifts, Boolean Operators, Comparison Operators, Assignment Operators, Membership Operators, Identity Operators, Logical Operators.')
+print('Parentheses change the order of operations.')
+print(10 + 20 * 30)
+print(10 + (20 * 30))
+print((10 + 20) * 30)
+
+
+                                    # 

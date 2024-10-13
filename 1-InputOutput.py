@@ -45,7 +45,7 @@ is_online = bool(is_online)
 #Write a program that receives two numbers from the use and displays the sum of the two numbers.
 first_number = input("Enter the first number: ")
 second_number = input("Enter the second number: ")
-sum = int(first_number) + int(second_number)
+sum = float(first_number) + float(second_number)
 print("The sum of the two numbers is " + str(sum))
 
 # To complete the assignment, calculate for the difference, product, and quotient of the two numbers.
