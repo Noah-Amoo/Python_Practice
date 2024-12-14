@@ -1,0 +1,3 @@
+In Python, you can use the 'with' keyword to open a file.
+In Python, you can use the 'in' keyword to search for a string in a file.
+In Python, you can use the 'for' keyword to iterate over the lines in a file.

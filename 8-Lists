@@ -27,6 +27,11 @@ print('\nYou can add a value to the end of a list by using the append method.')
 names.append('Elijah')
 print(names)
 
+#You can insert a value into a list by using the insert method.
+print('\nYou can insert a value into a list by using the insert method.')
+names.insert(0, 'Moses')
+print(names)
+
 #You can select a range of values from a list by using the slice operator.
 print('\nYou can select a range of values from a list by using the slice operator.')
 print(names[0:3])    # This will print ['Nana', 'Noah', 'Yaw'].
